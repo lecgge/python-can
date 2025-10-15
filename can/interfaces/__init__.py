@@ -57,6 +57,7 @@ BACKENDS: dict[str, tuple[str, str]] = {
     "neousys": ("can.interfaces.neousys", "NeousysBus"),
     "etas": ("can.interfaces.etas", "EtasBus"),
     "socketcand": ("can.interfaces.socketcand", "SocketCanDaemonBus"),
+    "tosun": ("can.interfaces.tosun", "TSMasterApiBus"),
 }
 
 
